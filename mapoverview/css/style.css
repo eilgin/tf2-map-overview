@@ -1,0 +1,26 @@
+body {
+    margin: 0 10%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+    /*width: 100%;*/
+}
+
+input[type=range] {
+    width: 800px;
+}
+
+div#debug-info {
+    margin: 0 auto;
+    width: 800px;
+    height: 20em;
+    text-align: left;
+    overflow: auto;
+}
+
+div#debug-info progress {
+    width: 90%;
+}

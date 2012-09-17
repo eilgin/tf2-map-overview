@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/map-overview.js"></script>
+    <script>
+    
+    window.onload = function()
+    { 
+        // first we test the presence of all necessary objects
+        if (!!document.createElement('canvas').getContext &&
+            !!JSON.parse &&
+            !!XMLHttpRequest)
+        {
+            TFVIEW.init({
+                record_filename: 'RED-vs-BLU-cp_badlands-15092012-142217',
+                canvas_id: 'map-overview',
+                play_id: 'play-button',
+                pause_id: 'pause-button',
+                slider_id: 'control-cursor',
+                debug_id: 'debug-info'
+            });
+        }
+    }
+    
+    </script>
+    <title>TF2 map overview - example</title>
+</head> 
+<body>
+    <h1>Team fortress 2 : map overview</h1>
+    <p>This is a simple player where you can view an entire match
+    in a top-view 2D perspective.<br>
+    It uses File API to load local files, some new UI elements (progress bar,...)
+    from HTML5 and the canvas element to display the scene.</p>
+    <canvas id="map-overview">The canvas element is not supported by your browser !</canvas>
+    <div id="controls">
+        <input type="range" id="control-cursor" min="0" step="1" value="0" name="controlCursor"><br>
+        <button type="button" id="play-button">play</button>
+        <button type="button" id="pause-button">pause</button>
+    </div>
+    <h2>Debug info</h2>
+    <div id="debug-info"></div>
+</body>
+</html>
