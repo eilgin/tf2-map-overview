@@ -7,7 +7,7 @@
 This project is aimed at captured player's movements during a match and showing it on a browser capable of handling the canvas element.
 This tool can be used to improve strategic skills for tf2 competitive teams.
 
-## About
+## Example
 =====
 
 You can see an (simple) example [here](http://www.thomas-jouannic.fr/mapoverview/).
@@ -41,11 +41,13 @@ In order to get the right image along with the projection data, you need to:
 * "Create a server" (choose your map)
 * follow [this tutorial](https://developer.valvesoftware.com/wiki/Level_Overviews#Make_the_raw_overview_image) to take the raw overview image
 * write down the projection data (this should look like `scale 6.00, pos_x -2651, pos_y 4027`) in JSON format (save it as a json file):
+
     {
         "scale":6.00,
         "pos_x":-2651,
         "pos_y":4027
     }
+
 * you'll find your screenshot in <game dir>/screenshots (JPEG or TGA format). If you take a screenshot using `jpeg`, don't forget to put `jpeg_quality` to at least 90 !
 * modify it (crop where there's nothing to show, remove the green color)
 * save it as a JPEG file : it has the best compression ratio (but no alpha channel!)
