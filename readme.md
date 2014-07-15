@@ -1,4 +1,4 @@
-# Map-overview for the orangebox source engine (TF2, L4D, HL²:episode two,...)
+# Map-overview for the orangebox source engine (TF2, L4D, HLï¿½:episode two,...)
 =====
 
 ## About
@@ -10,7 +10,7 @@ This tool can be used to improve strategic skills for tf2 competitive teams.
 ## Example
 =====
 
-You can see an (simple) example [here](http://www.thomas-jouannic.fr/mapoverview/).
+You can see an (simple) example [here](http://www.thomas-jouannic.fr/v1/mapoverview/).
 
 ## Pre-requisite
 =====
