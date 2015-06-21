@@ -1,25 +1,16 @@
-# Map-overview for the orangebox source engine (TF2, L4D, HL�:episode two,...)
-=====
+# Map-overview for the orangebox source engine (TF2, L4D, HL²:episode two,...)
 
 ## About
-=====
 
 This project is aimed at captured player's movements during a match and showing it on a browser capable of handling the canvas element.
 This tool can be used to improve strategic skills for tf2 competitive teams.
 
-## Example
-=====
-
-You can see an (simple) example [here](http://www.thomas-jouannic.fr/v1/mapoverview/).
-
 ## Pre-requisite
-=====
 
 You need to install at least sourcemod 1.4+ on your dedicated server (a compiled SMX plug-in is included with the source in the scripting-pawn dir).
 You also need a modern web-browser.
 
 ## How to use it ?
-=====
 
 1. Put "map-overview.smx" in the plugins directory where sourcemod is installed (should be something like `/orangebox/tf/addons/sourcemod/plugins`)
 2. Change maps or reload your map (this should load the plugin).
@@ -29,7 +20,6 @@ You also need a modern web-browser.
 6. Launch index.html in your browser :)
 
 ## How to add more maps ?
-=====
 
 Currently there's 3 overviewed maps (badlands, gullywash_pro and turbine_pro_rc1).
 So basically you need 2 things :
@@ -55,7 +45,6 @@ In order to get the right image along with the projection data, you need to:
 * that's it !
 
 ## Improvements
-=====
 
 There's a lot to do if you want it to be user-friendly (meaning that you could use it in a web server).
 For instance, we need to compress the JSON file which could dramatically reduce the filesize (it's just a text file).
