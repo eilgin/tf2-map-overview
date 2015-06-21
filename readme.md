@@ -32,11 +32,13 @@ In order to get the right image along with the projection data, you need to:
 * follow [this tutorial](https://developer.valvesoftware.com/wiki/Level_Overviews#Make_the_raw_overview_image) to take the raw overview image
 * write down the projection data (this should look like `scale 6.00, pos_x -2651, pos_y 4027`) in JSON format (save it as a json file):
 
+```json
     {
         "scale":6.00,
         "pos_x":-2651,
         "pos_y":4027
     }
+```
 
 * you'll find your screenshot in <game dir>/screenshots (JPEG or TGA format). If you take a screenshot using `jpeg`, don't forget to put `jpeg_quality` to at least 90 !
 * modify it (crop where there's nothing to show, remove the green color)
