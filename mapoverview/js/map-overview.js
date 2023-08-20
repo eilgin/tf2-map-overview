@@ -597,7 +597,7 @@ var TFVIEW = (function(window)
         
         currentIndexPosition = nextIndexPosition = val;
         
-        update(new Date().getTime());
+        update(performance.now());
         draw();
     }
     
